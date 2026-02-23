@@ -5,8 +5,8 @@
     
     <!-- Welcome Text -->
     <Transition name="fade-slide">
-      <div class="text-center md:text-left md:w-1/2 mb-8 md:mb-0 relative z-10" v-if="mounted">
-        <h1 class="text-5xl md:text-6xl font-bold text-white mb-4 bg-linear-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text ">
+      <div class="text-center md:top-0 top-9  md:text-left md:w-1/2 mb-8 md:mb-0 relative z-10" v-if="mounted">
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 bg-linear-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text ">
           Welcome to Pixen AI
         </h1>
         <p class="text-gray-300 text-lg md:text-xl mb-6 leading-relaxed">
