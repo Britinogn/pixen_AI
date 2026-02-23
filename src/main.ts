@@ -12,4 +12,7 @@ import router from './routes'
 //   }
 // })
 
-createApp(App).use(router as any).mount('#app')
+// createApp(App).use(router as any).mount('#app')
+const app = createApp(App)
+app.use(router as any) 
+app.mount('#app')
